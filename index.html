@@ -110,9 +110,11 @@
             } else if (event.code === 'ArrowRight') {
                 // Right arrow pressed, skip to next track
                 skipToNextTrack(accessToken);
+                event.preventDefault();
             } else if (event.code === 'ArrowLeft') {
                 // Left arrow pressed, skip to previous track
                 skipToPreviousTrack(accessToken);
+                event.preventDefault();
             }
         });
     </script>

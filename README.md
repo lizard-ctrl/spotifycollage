@@ -1,2 +1,3 @@
 # spotifycollage
 # stickers
+# stickers

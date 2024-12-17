@@ -34,3 +34,14 @@ h2{
 
     transform: scale(1.4);
 }
+
+@media screen and (max-width: 768px) {
+    h2{
+        color: red;
+        position: absolute;
+        top: 30%;
+        font-size: 70px;
+        z-index: 1000;
+        text-align: center;
+    }
+}

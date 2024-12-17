@@ -35,7 +35,7 @@ h2{
     transform: scale(1.4);
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 908px) {
     h2{
         color: red;
         position: absolute;
